@@ -1,0 +1,7 @@
+
+.imagemCarro{
+    object-fit: cover;
+    padding: 0.01%;
+    width: 100%;
+    height: 695px;
+}

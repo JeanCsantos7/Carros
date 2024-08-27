@@ -1,0 +1,62 @@
+
+    .Titulo{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 710;
+        color: rgb(47, 107, 203);
+        margin-left: 2%;
+        margin-top: 2%;
+    }
+
+    .Container{
+        display: flex;
+        align-items: center;
+        gap: 3%;
+        margin-left: 1%;
+        padding: 1%;
+        margin-top: 1.5%;
+       
+    }
+
+    .ContainerTitulo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .MarcaEspecifica{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(30, 29, 29);
+        border-radius: 9px;
+        width: 155px;
+        height: 85px;
+        padding: 0.2%;
+        transition: ease-in-out 660ms;
+    }
+
+    .MarcaEspecifica:hover{
+     
+        transition: ease-in-out 660ms;
+        background-color: rgb(47, 107, 203);
+    }
+
+    .imagemMarca{
+        width: 54px;
+        margin-top: 4%;
+       
+ 
+    }
+
+    .btnEstoque{
+        font-family: "Montserrat", sans-serif;
+        cursor: pointer;
+        color: rgb(47, 107, 203);
+        font-weight: 700;
+        background-color: #FFF;
+        border: 1px solid rgb(47, 107, 203);
+        border-radius: 8px;
+        width: 210px;
+        height: 40px;
+        margin-right: 2%;
+    }
